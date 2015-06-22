@@ -2,16 +2,9 @@
 layout: post
 title: "Summer Course 2013: Day 1 Make Your Own Website"
 date: 2013-06-17 22:19
-comments: true
-categories: [2013 summer courses, HTML, CSS]
+categories: 2013 summer courses, HTML, CSS
 ---
 
-<!-- more -->
-
-{:.no_toc}
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
 
 ## Tools
 [&#8629; TOP](#markdown-toc)
@@ -54,9 +47,11 @@ Explore dev tools
 ### [day1/index.html](index.html)
 Use dropbox pages
 
-~~~ html
+{% highlight text %}
 {% gist 5796266 %}
-~~~
+{% endhighlight %}	
+
+
 
 ##### [lorem ipsum generator](https://chrome.google.com/webstore/detail/lorem-ipsum-generator/dmpfoncmmihgkooacnplecaopcefceam/related?hl=en)
 
@@ -68,7 +63,6 @@ Use dropbox pages
 * strong
 * br 
 * Brower default padding for h1, p etc.
-
 
 	
 

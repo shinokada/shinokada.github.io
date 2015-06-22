@@ -2,16 +2,9 @@
 layout: post
 title: "Summer Course 2013: Day 2 Make Your Own Website"
 date: 2013-06-18 19:38
-comments: true
-categories: [2013 summer courses, HTML, CSS]
+categories: 2013 summer courses, HTML, CSS
 ---
 
-<!-- more -->
-
-{:.no_toc}
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
 
 ## Review
 [&#8629; TOP](#markdown-toc)
@@ -75,9 +68,8 @@ new folder, html, html5.sublime-snippet. you need sublime-snippet at the end. Si
 
 Copy/paste from [Gist](https://gist.github.com/shinokadagist/5794866)
 
-~~~ html
 {% gist 5794866 %}
-~~~
+
 
 ## External Style Sheet
 [&#8629; TOP](#markdown-toc)
@@ -104,28 +96,23 @@ css
 
 #### div id and class
 
-~~~ html
 {% gist 5796223 %}
-~~~
 
 
 In your mystyle.css
 
-~~~ css
 {% gist 5796232 %}
-~~~
+
     
 #### Using li:nth-child()
 
-~~~ css
 {% gist 5796258 %}
-~~~
+
 	
 #### Using first-of-type
 
-~~~ css
 {% gist 5796285 %}
-~~~
+
 
     
 ## CSS properties
@@ -218,11 +205,3 @@ margin-right, margin-left, margin-top, margin-bottom
 	    margin-left: 100px;
     }
 
-
-
-
-
-
-
-
-	

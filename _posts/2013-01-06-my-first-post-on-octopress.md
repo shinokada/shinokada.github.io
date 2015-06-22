@@ -2,23 +2,14 @@
 layout: post
 title: "Personal note to create and deploy githubpages"
 date: 2013-01-06 20:35
-comments: true
-categories: [Octopress, github, github pages]
+categories: Octopress, github, github pages
 ---
-
-<!-- more -->
-
-{:.no_toc}
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
 
 My note to create and deploy next posts on github pages. Useful [website](http://learnaholic.me/2012/10/10/deploying-octopress-to-github-pages-and-setting-custom-subdomain-cname/) for octopress and github pages.
 
 After installation, to create a new post.
 
-	
-~~~ text
+{% highlight text %}
 rake new_post['My another post title here']
 	
 # Then open it and adding categories and enter an article. Once you are ready, then
@@ -26,13 +17,13 @@ rake new_post['My another post title here']
 rake generate   # Generates posts and pages into the public directory
 rake watch      # Watches source/ and sass/ for changes and regenerates
 rake preview    # Watches, and mounts a webserver at http://localhost:4000
-~~~
+{% endhighlight %}	
 
 
 To see a preview locally,
 
 	
-~~~ text
+{% highlight text %}
 rake preview
 //Go to http://localhost:4000/
 	
@@ -40,7 +31,8 @@ rake preview
 
 rake generate
 rake deploy
-~~~
+{% endhighlight %}	
+
 
 
 And check your githubpage.
@@ -48,11 +40,12 @@ And check your githubpage.
 ## Commit and push your sorce
 [&#8629; TOP](#markdown-toc)
 	
-~~~ text
+{% highlight text %}
 git add .
 git commit -m 'your message'
 git push origin source
-~~~
+{% endhighlight %}	
+
 
 
 [Blogging Basics on Octopress](http://octopress.org/docs/blogging/)
@@ -62,7 +55,7 @@ git push origin source
 ## How to install Octopress theme
 [&#8629; TOP](#markdown-toc)
 	
-~~~ text
+{% highlight text %}
 $ git clone git://github.com/lucaslew/whitespace.git .themes/whitespace
 $ rake install['whitespace']
 $ rake generate
@@ -72,12 +65,12 @@ $ rake deploy
 $ git add .
 $ git commit -m 'your message'
 $ git push origin source
-~~~
+{% endhighlight %}	
 
 And some tweaks.
 
 	
-~~~ css
+{% highlight css %}
 /* sass/partials/diebar/_base.scss */
 @media only screen and (min-width: 768px) {
   .toggle-sidebar {
@@ -85,13 +78,13 @@ And some tweaks.
     position: absolute; right: -10px; top: 0; bottom: 0;
     /*display: inline-block;*/
     ...}
-    
-~~~
+{% endhighlight %}	
+
 
 sass/custom/_styles.scss
 
 	
-~~~ text 
+{% highlight text %}
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
@@ -323,7 +316,7 @@ http://blog.codebykat.com/2013/05/23/gorgeous-octopress-codeblocks-with-coderay/
 article h2:first-of-type{background-image:none;}
 
 @import "coderay-github"
-~~~
+{% endhighlight %}	
 
 
 ## Using CodeRay
@@ -335,53 +328,52 @@ After installing CodeRay use the folloings.
 ## Some examples
 [&#8629; TOP](#markdown-toc)
 
-{% codeblock coderay lang:ruby %}
-~~~
+{% highlight text %}
 def what?
   42
 end
-~~~
-{:.language-ruby}
-{% endcodeblock %}
+{% endhighlight %}	
+
 
 The above code will produce the following.
 
-~~~
+{% highlight text %}
 def what?
   42
 end
-~~~
-{:.language-ruby}
+{% endhighlight %}	
+
 
 Another way
 
 
-{% codeblock coderay lang:ruby %}
-~~~ ruby
+{% highlight text %}
 def what?
   42
 end
-~~~
-{% endcodeblock %}
+{% endhighlight %}	
+
 
 will produce,
 
-~~~ ruby
+{% highlight text %}
 def what?
   42
 end
-~~~
+{% endhighlight %}	
+
 
 
 
 ### Inline code
 [&#8629; TOP](#markdown-toc)
 
-{% codeblock coderay lang:ruby %}
+{% highlight text %}
 `fox jumps over`
 
 A quick brown `fox jumps over` lazy dogs.
-{% endcodeblock %}
+{% endhighlight %}	
+
 
 will produce,
 
@@ -392,20 +384,20 @@ A quick brown `fox jumps over` lazy dogs.
 ### Block code
 [&#8629; TOP](#markdown-toc)
 
-{% codeblock coderay lang:ruby %}
 
-~~~
+{% highlight text %}
 foo foo
 bar bar
 baz baz
-~~~
-{% endcodeblock %}
+{% endhighlight %}	
+
 
 will produce,
 
-~~~
+{% highlight text %}
 foo foo
 bar bar
 baz baz
-~~~
+{% endhighlight %}	
+
 
