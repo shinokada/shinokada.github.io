@@ -5,10 +5,7 @@ date: 2013-11-01 22:10
 categories: Ruby
 ---
 
-
-## Adding git repo
-
-git clone from https://github.com/tutsplus/rails-deployment-example. Move all the files to the previouse directory. Or cd the dir and start vagrant here.
+`git clone` from https://github.com/tutsplus/rails-deployment-example. Move all the files to the previouse directory. Or cd the dir and start vagrant here.
 
 
 ## Setting up VM

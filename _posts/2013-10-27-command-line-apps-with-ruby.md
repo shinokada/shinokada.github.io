@@ -5,6 +5,8 @@ date: 2013-10-27 22:34
 categories: Ruby
 ---
 
+Notes from [Command-Line Apps in Ruby](http://code.tutsplus.com/courses/command-line-apps-in-ruby).
+
 	
 {% highlight text %}
 $ cd /Users/myname/Documents/command_line_apps_in_ruby_demo

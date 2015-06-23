@@ -5,9 +5,7 @@ date: 2013-07-09 09:28
 categories: Ruby
 ---
 
-
 ## Methods
-
 - even?
 - next
 - method

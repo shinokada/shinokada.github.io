@@ -5,9 +5,11 @@ date: 2013-07-05 22:22
 categories: Ruby
 ---
 
+Ruby notes.
+
 
 ## First Ruby code
-    
+
     mkdir learnruby
     cd learnruby
     irb

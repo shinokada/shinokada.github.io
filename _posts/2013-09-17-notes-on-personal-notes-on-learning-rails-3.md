@@ -6,7 +6,7 @@ categories: Rails
 ---
 
 
-## [Bootstrap and custom CSS](http://ruby.railstutorial.org/chapters/filling-in-the-layout#sec-custom_css)
+Notes from  [Bootstrap and custom CSS](http://ruby.railstutorial.org/chapters/filling-in-the-layout#sec-custom_css).
 
 Add a gem to the Gemfile.
 

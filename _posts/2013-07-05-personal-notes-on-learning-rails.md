@@ -5,7 +5,7 @@ date: 2013-07-05 20:47
 categories: Rails
 ---
 
-## Install RubyGems
+Install RubyGems
 
 {% highlight text %}
 which gem

@@ -5,9 +5,9 @@ date: 2013-10-16 08:41
 categories: Ruby
 ---
 
-## Altering Loop Control
-
 Use next/redo to jump to the beginning. Use break to break out the program.
+
+## Altering Loop Control
 	
 {% highlight ruby %}
 cont = "y"

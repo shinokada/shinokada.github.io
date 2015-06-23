@@ -6,7 +6,7 @@ categories: Rails
 ---
 
 
-## [Getting Started with Rails](http://guides.rubyonrails.org/getting_started.html)
+Notes from  [Getting Started with Rails](http://guides.rubyonrails.org/getting_started.html).
 
 	
 {% highlight text %}
