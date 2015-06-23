@@ -2,11 +2,8 @@
 layout: post
 title: "PHP Basics"
 date: 2013-05-23 21:04
-comments: true
-categories: [PHP]
+categories: PHP
 ---
-
-<!-- more -->
 
 
 ## About PHP
@@ -309,7 +306,7 @@ It returns the remainder. The modulus operator is a great way to find out if a n
 double-equals (also called the equal operator) tries to convert both values to the same type before comparing.
 
 
-{% codeblock doubleequals ( == ) and triple-equals ( === ) lang:php %}
+{% highlight php %}
 1 == "1" // true
 1 === "1" // false
 10 != "10"; # false, because it converts the string to a number
@@ -322,24 +319,24 @@ $name = "Sherlock";
 var_dump(!$name)// bool(false)
 $married = false;
 var_dump(!$married);// true
-{% endcodeblock %}
+{% endhighlight %}
 
 ### 	Logical Operators	
 
 
-{% codeblock Logical Operators lang:php %}
+{% highlight php %}
 //&& AND
 var_dump(6 > 5 && 1 < 7); //true
 // || OR
 var_dump(2 > 5 || 1 < 7);//true
-{% endcodeblock %}
+{% endhighlight %}
 
 
 
 
 ## PHP If Else Statement
 
-{% codeblock if()…else… for one line code inbetween lang:php %}
+{% highlight php %}
 <html>
 <body>
 
@@ -355,10 +352,10 @@ else
 
 </body>
 </html>
-{% endcodeblock %}
+{% endhighlight %}
 
 
-{% codeblock if( ){ }else{ } for more than one line inbetween lang:php %}
+{% highlight php %}
 <html>
 <body>
 <?php
@@ -379,7 +376,7 @@ else
 
 </body>
 </html>
-{% endcodeblock %}
+{% endhighlight %}
 
 	
 	
@@ -387,7 +384,7 @@ else
 ### The Elseif Statement in PHP
 
 
-{% codeblock Elseif Statement lang:php %}
+{% highlight php %}
 <html>
 <body>
 <?php
@@ -411,7 +408,7 @@ else
 ?>
 </body>
 </html>	
-{% endcodeblock %}
+{% endhighlight %}
 
 
 

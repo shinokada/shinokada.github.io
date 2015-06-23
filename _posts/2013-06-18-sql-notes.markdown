@@ -2,16 +2,8 @@
 layout: post
 title: "SQL notes"
 date: 2013-05-22 20:59
-comments: true
-categories: [SQL]
+categories: SQL
 ---
-
-<!-- more -->
-
-{:.no_toc}
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
 
 ## setup
 
