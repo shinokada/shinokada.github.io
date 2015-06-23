@@ -19,9 +19,7 @@ cmd+shift+p, install, Sidebarenhancements to install.
 
 Open Sublime Text 2 > Preferences > Browse Packages > User > SideBarEnhancements > Open With > Side Bar.sublime-menu
 
-{% highlight json %}
 {% gist 5796310 %}
-{% endhighlight %}
 
 Right click on a file in sublime text 2 and select Open in Browser.
 

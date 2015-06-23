@@ -902,7 +902,7 @@ app/views/static_pages/help.html.erb
   
 app/views/static_pages/about.html.erb
 
-    <% provide(:title, 'About Us') %>
+    <% provide(:title, 'About') %>
     <!DOCTYPE html>
     <html>
       <head>
@@ -918,7 +918,7 @@ app/views/static_pages/about.html.erb
 
 ## Refactor
 
-    $ mv foobar app/views/layouts/application.html.erb
+    $ mv layout_file app/views/layouts/application.html.erb
 
 app/views/layouts/application.html.erb
 
@@ -961,7 +961,7 @@ app/views/static_pages/help.html.erb
     
 app/views/static_pages/about.html.erb
 
-    <% provide(:title, 'About Us') %>
+    <% provide(:title, 'About') %>
     <h1>About Us</h1>
     <p>
     Bla bla
