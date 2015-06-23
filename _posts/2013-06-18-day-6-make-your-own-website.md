@@ -60,9 +60,7 @@ This sets to a small-caps font.
 	clear: both|left|right;
 
 
-{% highlight text %}
 {% gist 5829613 %}
-{% endhighlight %}
 
 
 ## Sublime Text 2 
@@ -202,15 +200,11 @@ An element with fixed position is positioned relative to the browser window.
 
 HTML: assignment3.html
 
-{% highlight html %}
 {% gist 5822001 %}
-{% endhighlight %}
 
 CSS Skelton: assignment3.css
 
-{% highlight css %}
 {% gist 5822008 %}
-{% endhighlight %}
 
 
 ### Solution will be posted in the next lesson

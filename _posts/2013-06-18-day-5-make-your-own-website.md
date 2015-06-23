@@ -19,13 +19,9 @@ How to see the source and CSS.
 ## Forms
 
 
-{% highlight html %}
 {% gist 5812295 %}
-{% endhighlight %}
 
-{% highlight html %}
 {% gist 5812296 %}
-{% endhighlight %}
 
 ## Sublime Text 2 Spliting Windows
 
@@ -36,9 +32,7 @@ cmd+shipt+[ or ] to move to next file.
 
 Add the followings to Preferences>Key binding>User
 
-{% highlight html %}
 {% gist 5812472 %}
-{% endhighlight %}
 
 Read more details in 
 [Configuring and mastering split windows in Sublime Text 2 Enhancements](http://shinokada.github.io/blog/2013/06/13/sublime-text-2-enhancements/)
@@ -104,13 +98,9 @@ p
 
 #### background-image
 
-{% highlight html %}
 {% gist 5812985 %}
-{% endhighlight %}
 
-{% highlight html %}
 {% gist 5812985 %}
-{% endhighlight %}
 
 #### background-repeat
 

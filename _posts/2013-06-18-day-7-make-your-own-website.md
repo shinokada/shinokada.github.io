@@ -20,15 +20,11 @@ categories: 2013 summer courses, HTML, CSS
 
 HTML Solution: assignemt3.html
 
-{% highlight html %}
 {% gist 5822180 %}
-{% endhighlight %}
 
 CSS Solution: assignment3.css
 
-{% highlight css %}
 {% gist 5822074 %}
-{% endhighlight %}
 
 ## Table
  
@@ -181,15 +177,11 @@ HTML
 Copy/paste a reset.css from [Eric Meyer](http://meyerweb.com/eric/thoughts/2011/01/03/reset-revisited/). 
 Make a link to css/reset.css and css/mystyle.css. 
 
-{% highlight html %}
 {% gist 5829107 %}
-{% endhighlight %}
 
 CSS
 
-{% highlight css %}
 {% gist 5829073 %}
-{% endhighlight %}
 
 ### normalize CSS
 Check out the demo.

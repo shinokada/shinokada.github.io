@@ -66,9 +66,7 @@ p.threecol {
 
 HTML
 
-{% highlight html %}
 {% gist 5865758 %}
-{% endhighlight %}
 
 CSS
 After typing the following, ctl+cmd+x to use prefixr.
@@ -134,9 +132,7 @@ After typing the following, ctl+cmd+x to use prefixr.
 
 Final CSS
 
-{% highlight css %}
 {% gist 5865762 %}
-{% endhighlight %}
 
 [More demo](http://css3.bradshawenterprises.com/transitions/)
 
@@ -152,9 +148,7 @@ Prepare four of 450 x 281px.
 
 HTML
 
-{% highlight html %}
 {% gist 5865884 %}
-{% endhighlight %}
 
 CSS
 	
@@ -220,9 +214,7 @@ CSS
 
 Then use prefixr to get the following.
 
-{% highlight css %}
 {% gist 5865886 %}
-{% endhighlight %}
 
 [Demo 2](http://sokada.site44.com/transform2.html)
 
@@ -232,9 +224,7 @@ Prepare two of 320 x 420px.
 
 HTML
 
-{% highlight html %}
 {% gist 5874627 %}
-{% endhighlight %}
 
 CSS
 	

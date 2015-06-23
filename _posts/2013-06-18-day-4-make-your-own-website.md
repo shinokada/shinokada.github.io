@@ -31,13 +31,9 @@ Emmet shorthand
     .wrap>h1{My Second Website}+.content>h2{My Content Heading}+p{This is my blog.}^aside>h2{Sidebar}+ul>li*3>a[href="#"]{Home}
     // and hit tab
 
-{% highlight html %}
 {% gist 5802981 %}
-{% endhighlight %}
 
-{% highlight css %}
 {% gist 5803276 %}
-{% endhighlight %}
 
 #### Problem 
 
