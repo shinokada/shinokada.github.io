@@ -143,7 +143,7 @@ If you want to use sublime text build with Ruby, you need to change /Users/yourn
 
 
     
-{% endhighlight %} json
+{% highlight json %}
 {
     "cmd": ["/Users/yourname/.rbenv/shims/ruby", "$file"],
     "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
@@ -160,7 +160,7 @@ After installing SublimeREPL, you need to change
 For my case I chagned osx.
 
     
-{% endhighlight %} json
+{% highlight json %}
 "cmd":{
         "windows":[
           "ruby.exe",
