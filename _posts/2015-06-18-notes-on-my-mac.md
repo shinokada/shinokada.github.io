@@ -5,6 +5,7 @@ date: 2015-06-18 22:06
 categories: mac
 ---
 
+My Mac environment for a new Mac book Pro.
 
 ## Development
 

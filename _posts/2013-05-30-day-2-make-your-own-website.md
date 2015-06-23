@@ -5,9 +5,9 @@ date: 2013-06-18 19:38
 categories: 2013 summer courses, HTML, CSS
 ---
 
+Day 2 of Make YOur Own Website covering review, snippet, external style sheet and CSS properties.
 
 ## Review
-[&#8629; TOP](#markdown-toc)
 
 Tools/sublime text, emmet, alfred, chrome, spectacle
 
@@ -15,7 +15,6 @@ html, head, body, h1 - h6, css, parent-child, ordered, unordered definition list
 
 
 ## Show or hide file extensions on a Mac?
-[&#8629; TOP](#markdown-toc)
 
 Method 1
 

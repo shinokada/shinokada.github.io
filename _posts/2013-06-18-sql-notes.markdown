@@ -1,0 +1,216 @@
+---
+layout: post
+title: "SQL notes"
+date: 2013-05-22 20:59
+comments: true
+categories: [SQL]
+---
+
+<!-- more -->
+
+{:.no_toc}
+
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
+
+## setup
+
+Add alias to ~/bash_profile. mmysql will start MAMP mysql
+
+{% highlight sql %}
+alias mmysql='/Applications/MAMP/Library/bin/mysql'
+
+exit; 
+SHOW databases;
+{% endhighlight %}
+
+
+## create database
+
+{% highlight sql %}
+CREATE DATABASE intrepid_detectives;
+USE intrepid_detectives;
+SHOW tables;
+{% endhighlight %}
+
+
+## create table
+
+{% highlight sql %}
+CREATE TABLE investigations(
+-> title varchar(100),
+-> detective varchar(30),
+-> daysToSolve integer);
+
+EXPLAIN investigations; Or use one of these,
+
+SHOW FIELDS FROM table / SHOW COLUMNS FROM table / DESCRIBE table / DESC table / EXPLAIN table
+{% endhighlight %}
+
+
+## inserting records
+
+{% highlight sql %}
+INSERT INTO investigations VALUES (“Finnigan’s Fault”,”Corlotta McOwen”,4);
+{% endhighlight %}
+
+
+Inserting data not in order.
+
+{% highlight sql %}
+INSERT INTO investigations(daysToSolve, title detective) VALUES (3, “The Missing Tree”, “Finch Hosky”);
+{% endhighlight %}
+
+Inserting data partially.
+
+{% highlight sql %}
+INSERT INTO investigations(title, detective) VALUES(“A case of allergies”, “Carson Andres”);
+{% endhighlight %}
+
+
+## selecting
+
+Display data
+
+{% highlight sql %}
+SELECT * FROM investigations;
+
+SELECT title, detective FROM investigations;
+/* Any order */
+
+
+SELECT daysToSolve, title FROM investigations;
+/* Out put will the same as select order. */
+{% endhighlight %}
+
+
+## datatypes
+
+varchar(100)
+
+{% highlight sql %}
+Create TABLE person(name varchar(100));
+{% endhighlight %} 
+
+text
+
+{% highlight sql %}
+Create Table email (body text);  
+{% endhighlight %}
+
+
+Numbers
+    
+int, or integer
+	
+{% highlight sql %}
+CREATE TABLE person(age integer);
+{% endhighlight %}
+
+
+int unsigned can have from 0 to 4.2billon numbers.
+
+BIGINT, SMALLINT, MEDIUMINT, TINYINT	
+    
+decimal (precision, scope) 
+	
+{% highlight sql %}
+precision: number of digit
+scope: number of digit after the decimal point.
+
+(10,0) 1234567890
+(5,2) 123.45
+CREATE TABLE student (avg_score decimal (6,2));
+
+CREATE TABLE student(id integer auto_increment);
+{% endhighlight %}
+
+
+auto_increment
+	
+{% highlight sql %}
+CREATE TABLE student(id integer auto_increment);
+{% endhighlight %}
+
+	
+
+Date and time
+
+{% highlight sql %}
+date 		'YYYY-MM-DD'
+time		'[H]HH:MM:SS'
+datetime	'YYYY-MM-DD HH:MM:SS'
+CREATE TABLE order(order_date date);
+{% endhighlight %}
+
+
+Booleans
+
+tinyint(1)
+	
+{% highlight sql %}
+CREATE TABLE order(fulfilled boolean);
+{% endhighlight %}
+
+
+
+Default values
+	
+{% highlight sql %}
+CREATE TABLE order(
+	coupon varchar(10) defaul "nodiscuont",
+	customer_id integer default NULL,
+	dateitme datetime default current_timestamp
+	fulfilled boolean NOT NULL default 0
+);
+{% endhighlight %}
+
+
+
+## primary-key
+
+Database concept #6
+
+Every table should have a primary key, a column that uniquely identifies each row. It can never be null, and must be set on record creation and never changed.
+
+{% highlight sql %}
+use intrepid_detectives;
+show tables;
+CREATE TABLE detectives(
+id INT NOT NULL auto_increment,
+name varchar(100),
+phone_number varchar(100),
+certificationDate date,
+CONSTRAINT detectives_pk PRIMARY KEY (id)
+);
+{% endhighlight %}
+
+CONSTRAINT is a rule on the table. And detectives_pk is the name of CONSTRAINT and pk stands for primary key.And this constraint is the primary key, and tell what column is primary key.
+	
+{% highlight sql %}
+EXPLAIN detectives;
+{% endhighlight %}
+
+	
+Natural primary key(social security number) and surogate key(id). 
+	
+{% highlight sql %}
+INSERT INTO detectives(name, phone_number,certificationDate)
+VALUES("Carlotta McOwen", "12345678", "2002-03-23");
+
+SELECT * FROM detectives;
+{% endhighlight %}
+
+	
+Add one more date.
+
+Adding with id number.
+	
+{% highlight sql %}
+INSERT INTO detectives VALUES(5, "Luther Ellery", "212345", "2005-03-11");
+{% endhighlight %}
+
+
+
+
+This will add id of 5 into db.

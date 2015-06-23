@@ -1,0 +1,215 @@
+---
+layout: post
+title: "Guard"
+date: 2013-06-10 21:44
+comments: true
+categories: [Guard]
+---
+
+<!-- more -->
+
+## Watching your css and html with Guard
+
+### installation
+
+
+	// check ruby
+	ruby -v
+	// check gem
+	gem -v
+	// update gem
+	sudo gem update --system
+	
+	mkdir demo
+	cd demo
+	// install guard
+	sudo gem install guard
+	// install guard-livereload
+	sudo gem install guard-livereload
+    // then install and run the chrome extension livereload. Go to chrome://extensions/ and tick Allow access to file URLs. Then tick LiveReload to watch html and css files change 
+	
+
+
+
+## [Guard is your best friend]
+
+[Guard is your best friend]:http://net.tutsplus.com/tutorials/tools-and-tips/guard-is-your-best-friend/
+
+[Rubygems.org], [RubyInstaller for Windows]
+
+[Rubygems.org]:www.rubygems.org
+[RubyInstaller for Windows]: www.rubyinstaller.org
+
+	// check ruby
+	ruby -v
+	// check gem
+	gem -v
+	// update gem
+	sudo gem update --system
+	
+	mkdir demo
+	cd demo
+	// install guard
+	sudo gem install guard
+	// install guard-sass
+	sudo gem install guard-sass
+	// initialize This will create a Guardfile
+	guard init
+	
+Open Guardfile and modify it.
+ 
+ 	guard 'sass', :input => 'sass', :output => 'css'
+ 	
+To start guard/monitor, type this on a terminal
+	
+	guard
+	
+Create sass/buttons.sass file. And add the following and save to see the change in css/buttons.css which will be automatically created. 
+
+	$bg : white
+
+	.button 
+		backgroud: $bg
+		padding: 10px
+		border: 1px solid back 
+
+(You may need to install dependensies.)
+
+	gem install rb…..
+	
+To exit
+
+	e or exit
+	
+Installing coffeescript
+
+	gem install guard-coffeescript
+	// initialize coffeescript since you have sass already
+	guard init coffeescript
+	// for if it is the first init, then
+	guard init
+	// change Guardfile
+	guard 'coffeescript', :input => 'coffee', :output =>'js'
+	guard 'sass', :input => 'sass', :output => 'css'
+	
+Create coffee/main.coffee file and add the followings
+
+	name = 'Joe'
+
+	alert name
+
+Run guard and save and see it will create a file js/main.js
+
+Using livereload. Create index.html and in sublime text,
+
+	html5 (and tab to expand)
+	
+	<!doctype html>
+    <head>
+        <meta charset="utf-8">
+        <meta charset=utf-8>
+        <title>title</title>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+    </body>
+	</html>
+	
+Exit guard
+
+	e
+	// install 
+	sudo gem install guard-livereload
+	
+Install a browser extension for Chrome or FF. In Chrome, you need to tick Allow access to file URLs in extension setting for LiveReload.
+
+initialize livereload
+
+	guard init livereload
+	
+	// change Guardfile 
+	guard 'livereload' do
+  	watch(%r{.+\.(css|html|js)$})
+	end
+
+Start Guard
+
+	guard
+
+Enable livereload in Chrome by clicking the icon and the center is black. And check index.html on Chrome.
+
+Edit index.html and save it to see the change.
+
+Add stulesheet to index.html and sass/main.sass and add some css.
+
+
+	<link rel="stylesheet" href="css/main.css">
+
+...
+I just installed Codekit which does the same things. <http://incident57.com/codekit/index.php>
+…
+
+## How to concatinate and minimize with Guard.
+
+	//exit
+	e
+	// for concatination
+	sudo gem install guard-concat
+	// for minification
+	sudo gem install guard-uglify
+	guard init concat
+	// this will add the followings
+	# This will concatenate the javascript files 	specified in :files to public/js/all.js
+	
+	guard :concat, type: "js", files: %w(), input_dir: 	"public/js", output: "public/js/all"
+
+	guard :concat, type: "css", files: %w(), input_dir: 	"public/css", output: "public/css/all"
+	
+	// modify for this example for js
+	// this will concat main.js and module.js and save as all.js in js folder.
+	… "js", files: %w(main module), input_dir: "js", output: "js/all"
+	
+Create a coffee/module.coffee and add class Mod for ex.
+
+Start guard and save module.coffee again to see all.js is created in js folder.
+
+## Minify
+
+	e
+	guard init uglify
+	
+Change Guardfile
+
+	guard 'uglify', :destination_file => "public/javascripts/application.js" do
+  	watch (%r{app/assets/javascripts/application.js})
+	end
+
+to
+
+	guard 'uglify', :destination_file => "js/all.js" do
+  	watch ('js/all.js')
+	end
+	
+##Sublime Guard
+<https://github.com/cyphactor/sublime_guard>
+	
+## Problem
+I had a problem to save twice for sass. I have upgrade ruby 2.0.0 but it doesn't change.
+
+Read <http://architects.dzone.com/articles/upgrading-ruby-20-mountain>
+
+How to install Ruby 2.0.0 on Mountain Lion
+<http://www.interworks.com/blogs/ckaukis/2013/03/05/installing-ruby-200-rvm-and-homebrew-mac-os-x-108-mountain-lion>
+
+
+	
+
+
+
+	
+
+	
+
+	
+
+	
