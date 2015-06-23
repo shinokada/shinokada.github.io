@@ -46,7 +46,7 @@ end
 
 Create app/views/posts/new.html.erb
 
-{% endhighlight %} erb
+{% highlight erb %}
 <h1>New Post</h1>
 	
 <%= form_for :post, url: posts_path do |f| %>
@@ -116,7 +116,7 @@ end
 
 Create app/views/posts/show.html.erb.
 	
-{% endhighlight %} erb
+{% highlight erb %}
 <p>
   <strong>Title:</strong>
   <%= @post.title %>
@@ -149,7 +149,7 @@ end
 
 Edit app/views/posts/index.html.erb:
 	
-{% endhighlight %} erb
+{% highlight erb %}
 <h1>Listing posts</h1>
  
 <table>
@@ -171,7 +171,7 @@ Edit app/views/posts/index.html.erb:
 
 Edit  app/views/welcome/index.html.erb.
 	
-{% endhighlight %} erb
+{% highlight erb %}
 <h1>Hello, Rails!</h1>
 <%= link_to "My Blog", controller: "posts" %>
 ...
@@ -181,14 +181,14 @@ Edit  app/views/welcome/index.html.erb.
 
 Add in app/views/posts/new.html.erb.
 	
-{% endhighlight %} erb
+{% highlight erb %}
 ...
 <%= link_to 'Back', posts_path %>
 {% endhighlight %}
 
 Add in app/views/posts/show.html.erb.
 	
-{% endhighlight %} erb
+{% highlight erb %}
 ...
 <%= link_to 'Back', posts_path %>
 {% endhighlight %}
@@ -254,7 +254,7 @@ end
 
 Create a file called app/views/posts/edit.html.erb.
 	
-{% endhighlight %} erb
+{% highlight erb %}
 <h1>Editing post</h1>
  
 <%= form_for :post, url: post_path(@post.id) },
@@ -304,7 +304,7 @@ end
 
 Update app/views/posts/index.html.erb.
 	
-{% endhighlight %} erb
+{% highlight erb %}
 <table>
   <tr>
     <th>Title</th>
@@ -326,7 +326,7 @@ Update app/views/posts/index.html.erb.
 
 And in app/views/posts/show.html.erb.
 	
-{% endhighlight %} erb
+{% highlight erb %}
 ...
 <%= link_to 'Back', posts_path %>
 | <%= link_to 'Edit', edit_post_path(@post) %>
@@ -351,7 +351,7 @@ And in app/views/posts/show.html.erb.
 
 Create a new file app/views/posts/_form.html.erb. 
 	
-{% endhighlight %} erb
+{% highlight erb %}
 <%= form_for @post do |f| %>
   <% if @post.errors.any? %>
   <div id="errorExplanation">
