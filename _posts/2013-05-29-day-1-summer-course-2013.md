@@ -5,6 +5,7 @@ date: 2013-06-17 22:19
 categories: 2013 summer courses, HTML, CSS
 ---
 
+Class notes for Summer Course 2013: Make your own website, covering tools, HTML, CSS.
 
 ## Tools
 [&#8629; TOP](#markdown-toc)

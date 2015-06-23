@@ -5,6 +5,8 @@ date: 2015-06-20 16:17
 categories: Rails
 ---
 
+Personal notes on Learning Rails from [Ruby on Rails Tutorial 3RD ED.](https://www.railstutorial.org/). This covers from Chapter 1 to Chapter 3.
+
 ## Install RubyGems
 
     which gem
