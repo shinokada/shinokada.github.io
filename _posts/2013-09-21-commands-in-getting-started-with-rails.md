@@ -382,7 +382,7 @@ Create a new file app/views/posts/_form.html.erb.
 
 Update the app/views/posts/new.html.erb
 	
-{% endhighlight %} erb
+{% highlight erb %}
 <h1>New post</h1>
  
 <%= render 'form' %>
@@ -392,7 +392,7 @@ Update the app/views/posts/new.html.erb
 
 And update app/views/posts/edit.html.erb view:
 	
-{% endhighlight %} erb
+{% highlight erb %}
 <h1>Edit post</h1>
  
 <%= render 'form' %>
@@ -413,7 +413,7 @@ end
 
 Add destroy link to app/views/posts/index.html.erb.
 	
-{% endhighlight %} erb
+{% highlight erb %}
 <h1>Listing Posts</h1>
 <table>
   <tr>
@@ -438,7 +438,7 @@ Add destroy link to app/views/posts/index.html.erb.
 
 ### Typo
 	
-{% endhighlight %} erb
+{% highlight erb %}
 # Don'd add any extra space in 
 
     <td><%= link_to 'Destroy', post_path(post),
@@ -505,7 +505,7 @@ app/assets/stylesheets/comment.css.scss
 
 Edit app/views/posts/show.html.erb for comment.
 	
-{% endhighlight %} erb
+{% highlight erb %}
 <p>
   <strong>Title:</strong>
   <%= @post.title %>
@@ -549,7 +549,7 @@ end
 
 Edit  app/views/posts/show.html.erb to show comments.
 	
-{% endhighlight %} erb
+{% highlight erb %}
 <p>
   <strong>Title:</strong>
   <%= @post.title %>
@@ -596,7 +596,7 @@ Edit  app/views/posts/show.html.erb to show comments.
 
 Create app/views/comments/_comment.html.erb and put the following into it:
 
-{% endhighlight %} erb
+{% highlight erb %}
 <p>
   <strong>Commenter:</strong>
   <%= comment.commenter %>
@@ -610,7 +610,7 @@ Create app/views/comments/_comment.html.erb and put the following into it:
 
 Create app/views/comments/_form.html.erb containing:
 
-{% endhighlight %} erb
+{% highlight erb %}
 <%= form_for([@post, @post.comments.build]) do |f| %>
   <p>
     <%= f.label :commenter %><br />
@@ -628,7 +628,7 @@ Create app/views/comments/_form.html.erb containing:
 
 And edit app/views/posts/show.html.erb look like the following:
 
-{% endhighlight %} erb
+{% highlight erb %}
 <p>
   <strong>Title:</strong>
   <%= @post.title %>
@@ -652,7 +652,7 @@ And edit app/views/posts/show.html.erb look like the following:
 ## Deleting comments
 Add to app/views/comments/_comment.html.erb partial:
 
-{% endhighlight %} erb
+{% highlight erb %}
 <p>
   <strong>Commenter:</strong>
   <%= comment.commenter %>
