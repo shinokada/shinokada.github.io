@@ -19,7 +19,7 @@ cmd+shift+p, install, Sidebarenhancements to install.
 
 Open Sublime Text 2 > Preferences > Browse Packages > User > SideBarEnhancements > Open With > Side Bar.sublime-menu
 
-{% endhighlight %} json
+{% highlight json %}
 {% gist 5796310 %}
 {% endhighlight %}
 
