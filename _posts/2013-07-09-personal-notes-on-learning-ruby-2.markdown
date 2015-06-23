@@ -2,16 +2,9 @@
 layout: post
 title: "Personal Notes on Learning Ruby 2"
 date: 2013-07-09 09:28
-comments: true
-categories: [Ruby]
+categories: Ruby
 ---
 
-<!-- more -->
-
-{:.no_toc}
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
 
 ## Methods
 
@@ -43,7 +36,6 @@ words.[](1)
 {% endhighlight %}
 
 ## String
-[&#8629; TOP](#markdown-toc)
 
 - include?
 - start_with?
@@ -68,7 +60,6 @@ end
 {% endhighlight %}
 
 ## String case change
-[&#8629; TOP](#markdown-toc)
 
 - upcase
 - downcase
@@ -84,7 +75,6 @@ puts 'i am in lowercase'.upcase #=> 'I AM IN LOWERCASE'
 {% endhighlight %}
 
 ## Advanced String Operations
-[&#8629; TOP](#markdown-toc)
 
 - split
 - +
@@ -124,7 +114,6 @@ This can make a huge difference in your memory utilization.
 {% endhighlight %}
 
 ## Finding a substring using RegEx
-[&#8629; TOP](#markdown-toc)
 	
 {% highlight ruby %}
 'RubyMonk Is Pretty Brilliant'.match(/ ./)
@@ -138,7 +127,6 @@ The second parameter specifies the position in the string to begin the search.
 
 
 ## Sorting words
-[&#8629; TOP](#markdown-toc)
 
 {% highlight ruby %}
 def sort_string(string)
@@ -147,7 +135,6 @@ end
 {% endhighlight %}
 
 ## Finding the frequency
-[&#8629; TOP](#markdown-toc)
 
 {% highlight ruby %}
 def find_frequency(sentence, word)
@@ -157,7 +144,6 @@ end
 
 
 ## Loops 
-[&#8629; TOP](#markdown-toc)
 
 {% highlight ruby %}
 # loop and break if
@@ -175,7 +161,6 @@ end
 {% endhighlight %}
 
 ## Array
-[&#8629; TOP](#markdown-toc)
 
 - new array
 - push
@@ -203,10 +188,8 @@ Array.new
 {% endhighlight %}
 
 ## Basic Array Operations
-[&#8629; TOP](#markdown-toc)
 
 ### Transforming arrays
-[&#8629; TOP](#markdown-toc)
 
 - map
 - select
@@ -246,7 +229,6 @@ names.select {|word| word.length > 5}
 length, size: Returns the number of elements in self. May be zero.
 
 ## Iteration
-[&#8629; TOP](#markdown-toc)
 
 - for
 - each
@@ -289,7 +271,6 @@ end
 The each method takes two arguments - an element and a block. The element, contained within the pipes, is like a placeholder. Whatever you put in the pipes will be used in the block to represent each element of the array in turn. The block is the line of code that is executed on each of the array items, and is handed the element to process.
 
 ## Problem Number shuffle
-[&#8629; TOP](#markdown-toc)
 
 Given a 3 or 4 digit number with distinct digits, return a sorted array of all the unique numbers than can be formed with those digits.
 	
@@ -305,7 +286,6 @@ end
 
 
 ## Hash
-[&#8629; TOP](#markdown-toc)
 
 [symbol vs string in key](http://stackoverflow.com/questions/8189416/why-use-symbols-as-hash-keys-in-ruby)
 
@@ -346,7 +326,6 @@ restaurant_menu["Ramen"] #=> 3
 {% endhighlight %}
 
 ## Modifing a hash
-[&#8629; TOP](#markdown-toc)
 
 {% highlight ruby %}
 restaurant_menu = {}
@@ -357,7 +336,6 @@ restaurant_menu["Tea"] =  2
 
 
 ### Iterating a hash with each
-[&#8629; TOP](#markdown-toc)
 
 - each
 - keys

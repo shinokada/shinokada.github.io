@@ -2,16 +2,8 @@
 layout: post
 title: "Ruby personal notes"
 date: 2013-10-16 08:41
-comments: true
 categories: Ruby
 ---
-
-<!-- more -->
-
-{:.no_toc}
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
 
 ## Altering Loop Control
 

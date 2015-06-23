@@ -12,7 +12,6 @@ Personal notes on Vagrant and Puppet.
 [Automating Development Environments with Vagrant and Puppet](http://blog.kloudless.com/2013/07/01/automating-development-environments-with-vagrant-and-puppet/)
 
 ## Installing Virtual box and vagrant
-[&#8629; TOP](#markdown-toc)
 
 Install Virtual box and also VM VirtualBox Extension Pack.
 
@@ -22,7 +21,6 @@ $ install vagrant
 
 
 ## Vagrant Boxes
-[&#8629; TOP](#markdown-toc)
 
 Adding vagrant box Ubuntu 12.04
 	
@@ -61,7 +59,6 @@ $ vagrant box remove lucid32 virtualbox // virtualbox is a provider
 
 
 ## Starting a virtual machine
-[&#8629; TOP](#markdown-toc)
 
 {% highlight text %}
 ($ ls firstVM // change the dir where you have your Vagrantfile)
@@ -108,7 +105,6 @@ $ vagrant destroy // y for yes.
 
 
 ## SSHing into the VM
-[&#8629; TOP](#markdown-toc)
 
 {% highlight text %}
 $ vagrant up
@@ -143,7 +139,6 @@ vagrant@precise32:~$ sudo apt-get update&&sudo apt-get dist-upgrade
 
 
 ### Note
-[&#8629; TOP](#markdown-toc)
 
 You can add the following to the Vagrantfile to update as well.
 
@@ -186,7 +181,6 @@ vagrant@precise32:/vagrant~$ exit
 
 
 ## The Vagrantfile
-[&#8629; TOP](#markdown-toc)
 
 First destroy the VM in firstVM dir.
 
@@ -220,7 +214,6 @@ Uncomment the following line to use the synced folder as specified. But not at t
 
 
 ## Provisioning with Shell Scripts
-[&#8629; TOP](#markdown-toc)
 
 Destroy the VM if it is still running and open the Vagrantfile.
 
@@ -277,7 +270,6 @@ Use puppet for more heavy duty tools.
 
 
 ## Getting Started with Puppet
-[&#8629; TOP](#markdown-toc)
 
 [Puppet Essentials](http://example42.com/tutorials/build/deck/essentials/#slide-0)
 
@@ -296,7 +288,6 @@ vagrant@precise32:~$ apt-get install puppet
 {% endhighlight %}
 
 ## Puppet Resources
-[&#8629; TOP](#markdown-toc)
 
 To see what are in puppet resource, vagrant up and vagrant ssh,
 
@@ -371,7 +362,6 @@ vagrant@precise32:/vagrant~$ sudo puppet apply vim.pp
 
 
 ### error of fqdn
-[&#8629; TOP](#markdown-toc)
 
 {% highlight text %}
 // if you an error telling warning: Could not retrieve fact fqdn
@@ -391,7 +381,6 @@ end
 
 
 ### not able to install vim
-[&#8629; TOP](#markdown-toc)
 
 Add the following to Vagrantfile and $ vagrant reload in the terminal
 
@@ -442,7 +431,6 @@ package { 'vim':
 
 
 ## Putting Resources in Order
-[&#8629; TOP](#markdown-toc)
 
 Ordering puppet resource decorations.
 
@@ -574,7 +562,6 @@ File['two'] <- File['one']
 
 
 ## Writing a Complete Puppet Manifest
-[&#8629; TOP](#markdown-toc)
 
 Open the Vagrantfile and change the followings.
 
@@ -669,7 +656,6 @@ You don't need to ssh. You can open index.html and edit it from firstVM
 
 
 ## Variables and Conditionals in manifest file
-[&#8629; TOP](#markdown-toc)
 
 {% highlight text %}
 $ vagrant box list
@@ -766,7 +752,6 @@ Open localhost:8081 in a browser to check Vagrant + Puppet + httpd(CentOS)
 
 
 ### note for my case
-[&#8629; TOP](#markdown-toc)
 
 CentOS6.3 takes a lot of time, so I downloaded centos64 from http://puppet-vagrant-boxes.puppetlabs.com/centos-64-x64-vbox4210.box.
 
@@ -778,7 +763,6 @@ $ vagrant box add precise64 http://files.vagrantup.com/precise64.box
 
 
 ## Facter
-[&#8629; TOP](#markdown-toc)
 
 {% highlight text %}
 cd firstVM
@@ -806,7 +790,6 @@ end
 
 
 ## Puppet Classes
-[&#8629; TOP](#markdown-toc)
 
 Adding Object Oriented class to manifests/default.pp.
 
@@ -940,7 +923,6 @@ Check the browser if it has new message.
 
 
 ### My case
-[&#8629; TOP](#markdown-toc)
 
 It didn't work. But I made the default.pp as followings and it worked. I deleted webserver.pp.
 
@@ -990,7 +972,6 @@ include webserver
 
 
 ## Puppet Modules
-[&#8629; TOP](#markdown-toc)
 
 [puppetlabs/apache](https://forge.puppetlabs.com/puppetlabs/apache)
 
@@ -1124,7 +1105,6 @@ Check it in a browser.
 
 
 ### My case on Mac
-[&#8629; TOP](#markdown-toc)
 
 
 #### How to install puppet on Mac

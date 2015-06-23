@@ -2,20 +2,13 @@
 layout: post
 title: "Summer Course 2013: Day 9 Make Your Own Website"
 date: 2013-06-27 20:53
-comments: true
-categories: [2013 summer courses, HTML, CSS]
+categories: 2013 summer courses, HTML, CSS
 ---
 
-<!-- more -->
-
-{:.no_toc}
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
 
 
 ## Making Own Snippet
-[&#8629; TOP](#markdown-toc)
+
 
 [Sample snippets](https://github.com/joshnh/CSS-Snippets)
 
@@ -67,7 +60,7 @@ Create CSS snippet.
 
 
 ## CSS3 Border-radius
-[&#8629; TOP](#markdown-toc)
+
 
 HTML
     
@@ -102,7 +95,7 @@ border-radius:4px;
 
 
 ## Prefixr
-[&#8629; TOP](#markdown-toc)
+
 
 [prefixr](http://prefixr.com/)
 
@@ -144,7 +137,7 @@ Mine is like this.
 
 
 ## CSS3 Box-Shadow 
-[&#8629; TOP](#markdown-toc)
+
 
 Same markup as CSS3 Border-radius
 
@@ -192,7 +185,7 @@ body{width: 200px; margin:100px auto 0;}
 
 
 ## CSS3 Gradients
-[&#8629; TOP](#markdown-toc)
+
 
 [linear-gradient](http://www.css3files.com/gradient/)
 
@@ -355,7 +348,7 @@ Try the followings. [CSS3 Linear Gradients](http://demo.hongkiat.com/css3-linear
 
 
 ## Image Caption With CSS3
-[&#8629; TOP](#markdown-toc)
+
 
 [Demo](http://sokada.site44.com/imagecaption.html)
 

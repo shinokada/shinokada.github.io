@@ -2,16 +2,9 @@
 layout: post
 title: "Adding Table of Content to Octopress"
 date: 2013-06-29 16:46
-comments: true
-categories: [Octopress]
+categories: Octopress
 ---
 
-<!-- more -->
-
-{:.no_toc}
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
 
 ## _config.yml
 
@@ -22,7 +15,7 @@ markdown: kramdown
 {% endhighlight %}
 
 
-[&#8629; TOP](#markdown-toc)
+
 
 ## Adding TOC code to your post
 Use the following to your content.
@@ -55,13 +48,13 @@ The following is Sublime Text 2 snippet for this toc.
 
 
 ## Adding ToTop code to your post
-[&#8629; TOP](#markdown-toc)
+
 
 I use the following for a internal link to top.
 
 	
 {% highlight text %}
-[&#8629; TOP](#markdown-toc)
+
 {% endhighlight %}
 
 
@@ -70,7 +63,7 @@ The following is the Sublime Text 2 snippet.
 {% highlight text %}
 <snippet>
 	<content><![CDATA[
-[&#8629; TOP](#markdown-toc)
+
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>top</tabTrigger>
@@ -81,7 +74,7 @@ The following is the Sublime Text 2 snippet.
 
 
 ## Adding CSS
-[&#8629; TOP](#markdown-toc)
+
 
 Open octopress/sass/custom/_style.scss and add the followings.
 

@@ -2,11 +2,8 @@
 layout: post
 title: "Using Terminal"
 date: 2013-06-09 22:00
-comments: true
-categories: [Terminal]
+categories: Terminal
 ---
-
-<!-- more -->
 
 ## hello world in terminal
 

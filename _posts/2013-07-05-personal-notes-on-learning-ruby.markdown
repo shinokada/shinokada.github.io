@@ -2,17 +2,9 @@
 layout: post
 title: "Personal Notes on Learning Ruby"
 date: 2013-07-05 22:22
-comments: true
-categories: [Ruby]
+categories: Ruby
 ---
 
-
-<!-- more -->
-
-{:.no_toc}
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
 
 ## First Ruby code
     
@@ -95,7 +87,6 @@ esc
 
 
 ## Conditionals
-[&#8629; TOP](#markdown-toc)
 
 Use if elsif, but watch out not elseif like php.
 
@@ -145,7 +136,6 @@ puts output
 
 
 ## Sublime text and Ruby
-[&#8629; TOP](#markdown-toc)
 
 Use which ruby to find your default Ruby and use it in the following.
 

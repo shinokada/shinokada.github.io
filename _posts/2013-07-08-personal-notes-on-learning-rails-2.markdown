@@ -2,16 +2,9 @@
 layout: post
 title: "Personal Notes on Learning Rails 2"
 date: 2013-07-08 17:27
-comments: true
-categories: [Rails]
+categories: Rails
 ---
 
-<!-- more -->
-
-{:.no_toc}
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
 
 ## each, map and times
 
@@ -47,7 +40,6 @@ categories: [Rails]
 map method returns the result of applying the given block to each element in the array or range.
 
 ## %w and -1
-[&#8629; TOP](#markdown-toc)
 
 {% highlight ruby %}
 >> a = %w[foo bar baz quux]    # Use %w to make a string array.
@@ -58,7 +50,6 @@ map method returns the result of applying the given block to each element in the
 {% endhighlight %}
 
 ### bang!, push, << 
-[&#8629; TOP](#markdown-toc)
 
 {% highlight ruby %}
 >> a
@@ -79,7 +70,6 @@ map method returns the result of applying the given block to each element in the
 
 
 ### join and split
-[&#8629; TOP](#markdown-toc)
 
 split convert a string to an array. join method from an array to a string.
 
@@ -94,7 +84,6 @@ split convert a string to an array. join method from an array to a string.
 
 
 ### to_a and range
-[&#8629; TOP](#markdown-toc)
 
 
 {% highlight ruby %}
@@ -113,13 +102,11 @@ split convert a string to an array. join method from an array to a string.
 {% endhighlight %}
 
 ### Curly braces and do..end
-[&#8629; TOP](#markdown-toc)
 
 Using curly braces only for short one-line blocks and the do..end syntax for longer one-liners and for multi-line blocks:
 
 
 ### shuffle
-[&#8629; TOP](#markdown-toc)
 	
 {% highlight ruby %}
 >> ('a'..'z').to_a.shuffle[0..7].join
@@ -129,7 +116,6 @@ Using curly braces only for short one-line blocks and the do..end syntax for lon
 {% endhighlight %}
 
 ## Hashes and symbols
-[&#8629; TOP](#markdown-toc)
 	
 {% highlight ruby %}
 >> user = {}                          # {} is an empty hash.
@@ -155,7 +141,6 @@ Hashes don’t generally guarantee keeping their elements in a particular order.
 {% endhighlight %}
 
 ### Symbols
-[&#8629; TOP](#markdown-toc)
 
 Symbols are a special Ruby data type
 
@@ -192,7 +177,6 @@ Key :error has value "It failed."
 
 
 ### inspect
-[&#8629; TOP](#markdown-toc)
 
 
 inspect returns a string with a literal representation of the object it’s called on.
@@ -213,7 +197,6 @@ inspect returns a string with a literal representation of the object it’s call
 
 
 ## notes
-[&#8629; TOP](#markdown-toc)
 
 Parenthesese and curly braces on the final hash are optional.
 
@@ -235,10 +218,8 @@ type="text/css" />
 {% endhighlight %}
 
 ## Classes
-[&#8629; TOP](#markdown-toc)
 
 ### contructor
-[&#8629; TOP](#markdown-toc)
 	
 {% highlight ruby %}
 >> s = "foobar" 
@@ -263,7 +244,6 @@ Array constructor Array.new takes an initial value for the array, Hash.new takes
 
 
 ### superclass
-[&#8629; TOP](#markdown-toc)
 	
 {% highlight ruby %}
 >> s = String.new("foobar")

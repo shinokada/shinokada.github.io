@@ -2,16 +2,9 @@
 layout: post
 title: "Command line apps with Ruby"
 date: 2013-10-27 22:34
-comments: true
 categories: Ruby
 ---
 
-<!-- more -->
-
-{:.no_toc}
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
 	
 {% highlight text %}
 $ cd /Users/myname/Documents/command_line_apps_in_ruby_demo
@@ -78,7 +71,6 @@ $ ruby app.rb list_recipes oui --format sometext
 
 
 ## Adding options and arguments
-[&#8629; TOP](#markdown-toc)
 
 {% highlight ruby %}
 require "thor"
@@ -178,7 +170,6 @@ If you add required true, like option: format, required: true, then you are requ
 
 
 ## Subcommands
-[&#8629; TOP](#markdown-toc)
 
 ### Adding recipes add method
 
@@ -298,7 +289,6 @@ $ ruby app2.rb recipes add --title="Steak" --cooking-time="10 min" --description
 {% endhighlight %}
 
 ### Adding recipes list
-[&#8629; TOP](#markdown-toc)
 
 app3.rb
 
@@ -437,7 +427,6 @@ $ ruby app4.rb recipes add -c="10 min" -t "Steak" -d "Good ol' steak."
 {% endhighlight %}
 
 ## GLI
-[&#8629; TOP](#markdown-toc)
 
 Aims for a higher standard.
 Better documentation, better testing, better dependency management.

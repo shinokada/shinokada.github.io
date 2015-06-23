@@ -2,11 +2,9 @@
 layout: post
 title: "Guard"
 date: 2013-06-10 21:44
-comments: true
-categories: [Guard]
+categories: Guard
 ---
 
-<!-- more -->
 
 ## Watching your css and html with Guard
 

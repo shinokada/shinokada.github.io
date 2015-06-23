@@ -2,19 +2,11 @@
 layout: post
 title: "Summer Course 2013: Day 4 Make Your Own Website"
 date: 2013-06-20 14:33
-comments: true
-categories: [2013 summer courses, HTML, CSS]
+categories: 2013 summer courses, HTML, CSS
 ---
 
-<!-- more -->
-
-{:.no_toc}
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
-
 ## Individual work
-[&#8629; TOP](#markdown-toc)
+
 
 ### Assignment 1
 
@@ -32,7 +24,7 @@ Check HTML/CSS with Chrome's Developer tool. alt+cmd+i
 
 
 ## Float 
-[&#8629; TOP](#markdown-toc)
+
 
 Emmet shorthand
 
@@ -96,7 +88,7 @@ Since you have floated all, the wrap div is separated.
 
 
 ## Navigation List 
-[&#8629; TOP](#markdown-toc)
+
 
     ul>li*4>a[href="#"]{Home}
     

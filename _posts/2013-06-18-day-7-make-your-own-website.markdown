@@ -2,21 +2,12 @@
 layout: post
 title: "Summer Course 2013: Day 7 Make Your Own Website"
 date: 2013-06-25 20:53
-comments: true
-categories: [2013 summer courses, HTML, CSS]
+categories: 2013 summer courses, HTML, CSS
 ---
-
-<!-- more -->
-
-{:.no_toc}
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
-
 
 
 ## Livereload with Chrome/Sublime Text 2 
-[&#8629; TOP](#markdown-toc)
+
 
 - shift+cmd+p and install livereload
 - Install [Chrome extension Livereload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)
@@ -25,7 +16,7 @@ categories: [2013 summer courses, HTML, CSS]
 
 
 ## Assignment 3 Solution
-[&#8629; TOP](#markdown-toc) 
+ 
 
 HTML Solution: assignemt3.html
 
@@ -40,7 +31,7 @@ CSS Solution: assignment3.css
 {% endhighlight %}
 
 ## Table
-[&#8629; TOP](#markdown-toc) 
+ 
 
 ### Table basics
 
@@ -153,7 +144,7 @@ Example 2
 
 
 ## Validation
-[&#8629; TOP](#markdown-toc) 
+ 
 
 Validate your HTML at [Markup Validation Service](http://validator.w3.org/)
 
@@ -163,7 +154,7 @@ Don't blindly follow it! Validation is to find out your mistakes. You don't need
 
 You can use File-upload or Direct input tab.
 
-[&#8629; TOP](#markdown-toc) ## Resets and Normalizing
+ ## Resets and Normalizing
 Popular Reset Style Sheet
 
 [HTML5 Reset Stylesheet](http://html5doctor.com/html-5-reset-stylesheet/)
@@ -212,7 +203,7 @@ Check out the demo.
 
 
 ## CSS Layouts
-[&#8629; TOP](#markdown-toc) 
+ 
 
 [Tutorial: Learn CSS Layout](http://learnlayout.com/)
 
@@ -221,7 +212,7 @@ Check out the demo.
 
 
 ## JQuery slideshow
-[&#8629; TOP](#markdown-toc)
+
 
 [jQuery Slideshow Plugins](http://vandelaydesign.com/blog/web-development/jquery-slideshow/)
 
@@ -283,7 +274,7 @@ You can add captions in titles or add id. See the demo.
 
 
 ## Another SlideShow/Lightbox
-[&#8629; TOP](#markdown-toc)
+
 
 [Coin Slider](http://workshop.rs/2010/04/coin-slider-image-slider-with-unique-effects/)
 

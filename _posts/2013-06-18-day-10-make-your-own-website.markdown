@@ -2,25 +2,16 @@
 layout: post
 title: "Summer Course 2013: Day 10 Make Your Own Website"
 date: 2013-06-28 20:53
-comments: true
-footer: true
-categories: [2013 summer courses, HTML, CSS]
+categories: 2013 summer courses, HTML, CSS
 ---
 
-<!-- more -->
-
-{:.no_toc}
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
-
 ## Feedback
-[&#8629; TOP](#markdown-toc)
+
 
 Moodle
 
 ## Code Editor
-[&#8629; TOP](#markdown-toc)
+
 
 ### PHPStorm
 
@@ -37,7 +28,7 @@ I will give you an academic license code in class.
 [Codenvy](https://codenvy.com/)
 
 ## CSS3 Columns
-[&#8629; TOP](#markdown-toc)
+
 
 HTML
 
@@ -69,7 +60,7 @@ p.threecol {
 
 
 ## CSS3 Transitions
-[&#8629; TOP](#markdown-toc)
+
 
 [Demo](http://sokada.site44.com/transition.html)
 
@@ -152,7 +143,7 @@ Final CSS
 
 
 ## CSS3 Transform 
-[&#8629; TOP](#markdown-toc)
+
 
 [Demo 1](http://sokada.site44.com/transform.html)
 Images
@@ -320,14 +311,14 @@ Then use prefixr to get the following.
 
 
 ## jQuery Accordion
-[&#8629; TOP](#markdown-toc)
+
 
 Download source files from [Theming JQuery UI Accordion](http://www.hongkiat.com/blog/theming-jquery-ui-accordion/)
 
 
 
 ## JqueryMobile
-[&#8629; TOP](#markdown-toc)
+
 
 [jQueryMobile](http://jquerymobile.com/)
 
@@ -349,7 +340,7 @@ Copy and paste some codes. Accordion, Buttons, etc.
 
 
 ## Markdown
-[&#8629; TOP](#markdown-toc)
+
 
 [Markdown doc](http://daringfireball.net/projects/markdown/basics)
 
@@ -358,7 +349,7 @@ Copy and paste some codes. Accordion, Buttons, etc.
 
 
 ## [Different Stylesheets for Differently 
-[&#8629; TOP](#markdown-toc)
+
 
 Sized Browser Windows](http://css-tricks.com/resolution-specific-stylesheets/)
 
@@ -368,7 +359,7 @@ Sized Browser Windows](http://css-tricks.com/resolution-specific-stylesheets/)
 
 
 ## Jquery Menu
-[&#8629; TOP](#markdown-toc)
+
 
 [25 Free jQuery Menu and Tutorials](http://www.codefear.com/scripts/25-free-jquery-menu-navigation/)
 
@@ -376,14 +367,14 @@ Sized Browser Windows](http://css-tricks.com/resolution-specific-stylesheets/)
 
 
 ## Quiz
-[&#8629; TOP](#markdown-toc)
+
 
 [CSS Quiz](http://net.tutsplus.com/articles/quizzes/nettuts-quiz-1-beginner-css/)
 
 
 
 ## Resources
-[&#8629; TOP](#markdown-toc)
+
 
 ### Learn HTML/CSS
 [Free online course: 30 Days to Learn HTML and CSS](https://tutsplus.com/course/30-days-to-learn-html-and-css/)
@@ -460,7 +451,7 @@ You need [Feedly](http://cloud.feedly.com/#welcome) to follow blogs.
 ### Parallax Effect
 [15 Best Parallax Scrolling Tutorials](http://inspiretrends.com/parallax-scrolling-tutorials/)
 
-[&#8629; TOP](#markdown-toc)
+
 
 ## Extending CSS with LESSjs
 [CSS preprocessors](http://www.vanseodesign.com/css/css-preprocessors/)

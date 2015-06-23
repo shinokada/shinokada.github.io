@@ -2,19 +2,11 @@
 layout: post
 title: "Summer Course 2013: Day 5 Make Your Own Website"
 date: 2013-06-21 20:34
-comments: true
-categories: [2013 summer courses, HTML, CSS]
+categories: 2013 summer courses, HTML, CSS
 ---
 
-<!-- more -->
-
-{:.no_toc}
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
-
 ## Chrome
-[&#8629; TOP](#markdown-toc)
+
 
 How to see the source and CSS.
 
@@ -25,7 +17,7 @@ How to see the source and CSS.
 
 
 ## Forms
-[&#8629; TOP](#markdown-toc)
+
 
 {% highlight html %}
 {% gist 5812295 %}
@@ -36,7 +28,7 @@ How to see the source and CSS.
 {% endhighlight %}
 
 ## Sublime Text 2 Spliting Windows
-[&#8629; TOP](#markdown-toc)
+
 
 Configuring and mastering split windows
 
@@ -67,7 +59,7 @@ ctl+2 to focus to group 2
 {% endhighlight %}
 
 ## Place holder
-[&#8629; TOP](#markdown-toc)
+
 
 [Placehold.it](http://placehold.it/)
 
@@ -78,7 +70,7 @@ ctl+2 to focus to group 2
 
 
 ## Individual work 2
-[&#8629; TOP](#markdown-toc)
+
 
 ### Advanced Assignment 
 ![assignemt](http://sokada.site44.com/img/assignment2.png)
@@ -91,7 +83,7 @@ ctl+2 to focus to group 2
 
 
 ## Background Image
-[&#8629; TOP](#markdown-toc)
+
 
 #### background-color
 	
@@ -162,7 +154,7 @@ x% y%
 
 
 ## Image Replacement
-[&#8629; TOP](#markdown-toc)
+
 
 imagereplacement.html
 
@@ -182,7 +174,7 @@ h1{
 {% endhighlight %}
 
 ## Typography
-[&#8629; TOP](#markdown-toc)
+
 
 HTML
 

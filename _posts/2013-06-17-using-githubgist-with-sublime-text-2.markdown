@@ -2,11 +2,9 @@
 layout: post
 title: "Using GitHubGist with Sublime Text 2"
 date: 2013-06-14 07:20
-comments: true
-categories: [gist, sublime text 2]
+categories: gist, sublime text 2
 ---
 
-<!-- more -->
 
 ## Installing Sublime Package Control
 
@@ -76,15 +74,3 @@ cmd+shift+p and type gist browser
 After forking edit the name with Type: description for filtering.
 
 
-	
-
-
-
-
-    
-
-     
-     
- 
- 
-   

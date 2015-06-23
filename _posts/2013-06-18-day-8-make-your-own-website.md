@@ -2,7 +2,7 @@
 layout: post
 title: "Summer Course 2013: Day 8 Make Your Own Website"
 date: 2013-06-26 20:53
-categories: [2013 summer courses, HTML, CSS]
+categories: 2013 summer courses, HTML, CSS
 ---
 
 ## HTML5 Tag list

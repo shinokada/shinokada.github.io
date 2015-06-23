@@ -2,11 +2,9 @@
 layout: post
 title: "Styling your Terminal"
 date: 2013-06-10 21:31
-comments: true
-categories: [Terminal]
+categories: Terminal
 ---
 
-<!-- more -->
 
 [oh my zsh](http://github.com/robbyrussell/oh-my-zsh)
 

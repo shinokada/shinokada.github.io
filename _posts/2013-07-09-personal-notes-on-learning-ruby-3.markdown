@@ -2,16 +2,8 @@
 layout: post
 title: "Personal Notes on Learning Ruby 3"
 date: 2013-07-10 17:00
-comments: true
-categories: [Ruby]
+categories: Ruby
 ---
-
-<!-- more -->
-
-{:.no_toc}
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
 
 
 ## Classes

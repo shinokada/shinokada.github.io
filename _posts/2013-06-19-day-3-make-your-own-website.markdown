@@ -2,25 +2,18 @@
 layout: post
 title: "Summer Course 2013: Day 3 Make Your Own Website"
 date: 2013-06-19 10:12
-comments: true
-categories: [2013 summer courses, HTML, CSS]
+categories: 2013 summer courses, HTML, CSS
 ---
 
-<!-- more -->
-
-{:.no_toc}
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
 
 ## Review
-[&#8629; TOP](#markdown-toc)
+
 
 showing hidden files and folders, spectacle shortcuts, sublime text 2 skin, stackoverflow, html5 snippet, div, class, id, first-type-of, height, margin, padding.
 
 
 ## Installing sublime text 2, SideBarEnhancements
-[&#8629; TOP](#markdown-toc)
+
 
 cmd+shift+p, install, Sidebarenhancements to install.
 
@@ -34,7 +27,7 @@ Right click on a file in sublime text 2 and select Open in Browser.
 
 
 ## Comments in HTML and CSS
-[&#8629; TOP](#markdown-toc)
+
 
 HTML
 
@@ -53,14 +46,14 @@ CSS
 
 
 ## CSS properties
-[&#8629; TOP](#markdown-toc)
+
 
 - border none, dotted, dashed, solid, double, groove, ridge, inset, outset
 - text-align, center, left, right
 
 
 ## margin auto
-[&#8629; TOP](#markdown-toc)
+
 
 margin with auto
 
@@ -77,7 +70,7 @@ margin with auto
 
 
 ## blockquote, pre, code
-[&#8629; TOP](#markdown-toc)
+
 
 	
 {% highlight html %}
@@ -144,7 +137,7 @@ blockquote p {
 
 
 ## Anchor
-[&#8629; TOP](#markdown-toc)
+
 
 ### target
 	
@@ -198,7 +191,7 @@ blockquote p {
 
 
 ## Project Structures
-[&#8629; TOP](#markdown-toc)
+
 	
 {% highlight text %}
 - index.html
@@ -221,7 +214,7 @@ Update all css links.
 
     
 ## Images
-[&#8629; TOP](#markdown-toc)    
+    
 
 In index.html page type the following including alternate text. alt means "Specifies an alternate text for an image".
 	
@@ -255,7 +248,7 @@ You must use an image which you are allowed to use it. Your own images or [creat
 
 
 ## Emmet Doc
-[&#8629; TOP](#markdown-toc)
+
 
 [Emmet doc](http://docs.emmet.io/abbreviations/syntax/)
 

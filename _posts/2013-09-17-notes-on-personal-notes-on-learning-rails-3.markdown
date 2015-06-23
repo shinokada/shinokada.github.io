@@ -2,16 +2,8 @@
 layout: post
 title: "Notes on Personal Notes on Learning Rails 3"
 date: 2013-09-17 14:43
-comments: true
 categories: Rails
 ---
-
-<!-- more -->
-
-{:.no_toc}
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
 
 
 ## [Bootstrap and custom CSS](http://ruby.railstutorial.org/chapters/filling-in-the-layout#sec-custom_css)
@@ -78,7 +70,8 @@ app/assets/stylesheets/application.css
 {% highlight ruby %}
 *= require_tree .
 {% endhighlight %}
-ensures that all CSS files in the app/assets/stylesheets directory (including the tree subdirectories) are included into the application CSS.
+
+Ensures that all CSS files in the app/assets/stylesheets directory (including the tree subdirectories) are included into the application CSS.
 
 {% highlight ruby %}
 *= require_self

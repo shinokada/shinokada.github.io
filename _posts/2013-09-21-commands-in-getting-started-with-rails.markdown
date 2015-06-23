@@ -2,16 +2,8 @@
 layout: post
 title: "Commands in Getting Started with Rails"
 date: 2013-09-21 16:57
-comments: true
 categories: Rails
 ---
-
-<!-- more -->
-
-{:.no_toc}
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
 
 
 ## [Getting Started with Rails](http://guides.rubyonrails.org/getting_started.html)
@@ -26,6 +18,7 @@ $ rails g controller welcome index
 {% endhighlight %}
 
 Edit config/routes.rb by adding resources and root to
+
 {% highlight ruby %}
 ...
 resources :posts

@@ -2,19 +2,11 @@
 layout: post
 title: "Summer Course 2013: Day 6 Make Your Own Website"
 date: 2013-06-24 20:35
-comments: true
-categories: [2013 summer courses, HTML, CSS]
+categories: 2013 summer courses, HTML, CSS
 ---
 
-<!-- more -->
-
-{:.no_toc}
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
-
 ## Review
-[&#8629; TOP](#markdown-toc)
+
 
 Measureit, form, spliting windows, placeholder, assignment 2, background image, repeat, background-position, background-size, image replacement, negative indent, typography, letter-spacing, text-shadow.
 
@@ -23,21 +15,21 @@ Measureit, form, spliting windows, placeholder, assignment 2, background image, 
 
 
 ## Starting Your Own Project
-[&#8629; TOP](#markdown-toc)
+
 
 You learned a lot during the last week. There are more to learn, but you have enough knowledge and skills to start working on your website. If you can, use your logo, images and text for your project. You need to work this project at home. 
 
 
 
 ## Solution to Assignment 2
-[&#8629; TOP](#markdown-toc)
+
 
 [Assignment 2](http://sokada.site44.com/assignment2.html)
 
 
 
 ## More Typography
-[&#8629; TOP](#markdown-toc)
+
 
 ### font-variant
 This sets to a small-caps font.
@@ -61,7 +53,7 @@ This sets to a small-caps font.
 
 
 ## CSS clear
-[&#8629; TOP](#markdown-toc)
+
 
 [Demo](http://sokada.site44.com/clear.html)
 
@@ -74,7 +66,7 @@ This sets to a small-caps font.
 
 
 ## Sublime Text 2 
-[&#8629; TOP](#markdown-toc)
+
 
 ### Instant File Changing
 
@@ -98,7 +90,7 @@ The first one will give a comment. The second one will give a block comment.
 
 
 ## Relative and Absolute Positioning
-[&#8629; TOP](#markdown-toc)
+
 
 position.html
 
@@ -201,7 +193,7 @@ An element with fixed position is positioned relative to the browser window.
 
 
 ## Assignment 3
-[&#8629; TOP](#markdown-toc)
+
 
 
 ![Assignment 3 Image](http://sokada.site44.com/img/assignment3.png)	
