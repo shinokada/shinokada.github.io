@@ -372,7 +372,7 @@ end
 
 Open app/views/users/index.html.erb to see the index view.
 
-{% endhighlight %} erb
+{% highlight erb %}
 <% @users.each do |user| %>
 ...
   <tr>
@@ -952,7 +952,7 @@ $ rspec spec/requests/static_pages_spec.rb
 
 Add this to app/views/static_pages/help.html.erb
   
-{% endhighlight %} erb
+{% highlight erb %}
 <h1>Help</h1>
 <p>
   Bla bla
@@ -1035,7 +1035,7 @@ Missing template static_pages/about
 
 To solve this, add app/views/static_pages/about.html.erb
   
-{% endhighlight %} erb
+{% highlight erb %}
 <h1>About Us</h1>
 <p>
 Bla bla
@@ -1085,7 +1085,7 @@ $ rspec spec/requests/static_pages_spec.rb
 
 #### Passing title tests
   
-{% endhighlight %} erb
+{% highlight erb %}
 # app/views/static_pages/home.html.erb
 <% provide(:title, 'Home') %>
 <!DOCTYPE html>
@@ -1104,7 +1104,7 @@ $ rspec spec/requests/static_pages_spec.rb
 
 
   
-{% endhighlight %} erb
+{% highlight erb %}
 # app/views/static_pages/help.html.erb
 <% provide(:title, 'Help') %>
 <!DOCTYPE html>
@@ -1123,7 +1123,7 @@ $ rspec spec/requests/static_pages_spec.rb
 
 
   
-{% endhighlight %} erb
+{% highlight erb %}
 # app/views/static_pages/about.html.erb
 <% provide(:title, 'About Us') %>
 <!DOCTYPE html>
@@ -1148,7 +1148,7 @@ $ mv foobar app/views/layouts/application.html.erb
 
 
   
-{% endhighlight %} erb
+{% highlight erb %}
 app/views/layouts/application.html.erb
 <!DOCTYPE html>
 <html>
@@ -1172,7 +1172,7 @@ app/views/layouts/application.html.erb
 page /static_pages/home converts the contents of home.html.erb to HTML and then inserts it in place of <%= yield %>
 
   
-{% endhighlight %} erb
+{% highlight erb %}
 # app/views/static_pages/home.html.erb
 <% provide(:title, 'Home') %>
 <h1>Sample App</h1>

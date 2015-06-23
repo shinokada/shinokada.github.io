@@ -211,7 +211,7 @@ stylesheet_link_tag "application", :media => "all"
 {% endhighlight %}
 
 	
-{% endhighlight %} erb
+{% highlight erb %}
 # outputs
 <link href="/assets/application.css" media="all" rel="stylesheet"
 type="text/css" />
