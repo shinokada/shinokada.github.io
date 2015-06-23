@@ -916,7 +916,7 @@ $ rspec spec/requests/static_pages_spec.rb
 
 Add this to app/views/static_pages/home.html.erb
 
-{% endhighlight %} erb
+{% highlight erb %}
 <h1>Sample App</h1>
 <p>
 bla bla
