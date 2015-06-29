@@ -45,6 +45,9 @@ Download from [github](https://github.com/b4winckler/macvim) and open README_mac
 
 Don't forget to change iterm2 preference > text > font to Inconsolata for Powerline.
 
+## pandoc
+[pandoc](https://github.com/jgm/pandoc/releases/1.14.0.1)
+
 ## Apps
 
 - Adobe CS6
